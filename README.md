@@ -24,7 +24,7 @@ ec2:StopInstances
 
 #### 2. Build/Package/Deploy using Docker 
 ```
-  sh docker-deploy.sh <ec2-instance-id>
+  sh docker-deploy.sh <lambda-assume-role-arn> <ec2-instance-id>
 ```
 
 

@@ -23,5 +23,6 @@ echo "Successfully created lambda zip"
 cd ../lambda
 terraform init
 terraform apply \
+    -var aws_lambda_assume_role_arn=$AWS_LAMBDA_ASSUME_ROLE_ARN \
     -var aws_ec2_instance_id=$AWS_EC2_NAT_INSTANCE_ID \
     -auto-approve

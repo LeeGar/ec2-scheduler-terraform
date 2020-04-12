@@ -6,7 +6,7 @@ resource "aws_lambda_function" "ec2_scheduler_lambda" {
     timeout = 15
     memory_size = 128
     runtime = "python3.7"
-    role = var.lambda_role_arn
+    role = var.aws_lambda_assume_role_arn
     source_code_hash = filebase64sha256("../build/lambda.zip")
 
     tags = {
