@@ -2,7 +2,7 @@
 
 <strong>Author:</strong> Gar Lee
 
-<strong>Problem:</strong> EC2s are billed hourly rate are often unused during off-hours. This creates an inflated operating cost and is usually overlooked.
+<strong>Problem:</strong> EC2s are billed hourly and are often unused during off-hours. This creates an inflated operating cost and is usually overlooked.
 
 <strong>Solution:</strong> Stand up AWS Lambda with Cloudwatch cron triggers to execute start/stop commands given an existing EC2 instance ID.
 
