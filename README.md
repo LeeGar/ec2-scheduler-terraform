@@ -12,6 +12,23 @@ ec2:StartInstances
 ec2:StopInstances
 ```
 
+### Usage
+#### 1. AWS Credentials
+```
+  $ touch env.list
+  $ cat env.list
+  > AWS_REGION=YOUR_REGION
+    AWS_ACCESS_KEY_ID=YOUR_ACCESS_KEY_ID
+    AWS_SECRET_ACCESS_KEY=YOUR_SECRET_ACCESS_KEY
+```
 
+#### 2. Build/Package/Deploy using Docker 
+```
+  sh docker-deploy.sh <ec2-instance-id>
+```
+
+
+#### Notes
+By default, the start time for EC2 is 8AM PDT and stop time is at 10PM PDT. Parameterization feature will be included soon!
 
 
