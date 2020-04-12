@@ -1,4 +1,7 @@
 # EC2-Scheduler-Terraform
+
+<strong>Author:</strong> Gar Lee
+
 <strong>About:</strong> Dynamic start/stop of AWS EC2 Instances based on cron expression. Uses AWS Lambda with Python 3.7 
 
 <strong>Problem:</strong> EC2s are charged at an hourly rate and are often unused during off-hours. This causes an inflated operation cost and is often overlooked.
