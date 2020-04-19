@@ -1,5 +1,7 @@
 # EC2-Scheduler-Terraform
 
+https://medium.com/@gardarr/reducing-aws-ec2-operating-costs-using-a-lambda-scheduler-833d4f19857
+
 <strong>Author:</strong> Gar Lee
 
 <strong>Problem:</strong> EC2s are billed hourly and are often unused during off-hours. This creates an inflated operating cost and is usually overlooked.
